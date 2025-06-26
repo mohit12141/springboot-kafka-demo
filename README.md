@@ -57,7 +57,7 @@ Use Thunder Client (VS Code Extension) for testing the API.
 - Consumer listens and logs received messages to console
 
 ## 🗃 Directory Structure
-src/
+```src/
 ├── main/
 │   ├── java/
 │   │   └── com.example.kafka/
@@ -66,7 +66,7 @@ src/
 │   │       └── consumer/       # Kafka consumer logic
 │   └── resources/
 │       ├── application.properties
-└── pom.xml
+└── pom.xml```
 
 ## ✅ Example Output
 When a message is sent:
