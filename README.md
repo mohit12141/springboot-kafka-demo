@@ -21,7 +21,7 @@ graph TD
     B --> C[Kafka Topic (via Broker)]
     C --> D[Kafka Consumer]
     D --> E[Console Logger]
-
+```
 
 ## ▶️ Start Zookeeper
 
