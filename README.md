@@ -40,8 +40,11 @@ In VS Code terminal or command prompt:
 ```./mvnw spring-boot:run```
 
 ## 📬 API Endpoint
+```
 Method	Endpoint	Description
 POST	/api/publish	Publishes message to Kafka topic
+
+```
 
 ## 📦 Sample Request (JSON)
 ```
