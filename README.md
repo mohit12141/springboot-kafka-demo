@@ -18,7 +18,7 @@ This project demonstrates a basic **Kafka Producer-Consumer** setup using **Spri
 ```mermaid
 graph TD
     A[REST Controller] --> B[Kafka Producer]
-    B --> C[Kafka Topic (via Broker)]
+    B --> C[Kafka Topic via Broker]
     C --> D[Kafka Consumer]
     D --> E[Console Logger]
 ```
