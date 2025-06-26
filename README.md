@@ -25,10 +25,10 @@ graph TD
 
 ## ▶️ Start Zookeeper
 
-.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+```.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties```
 
 ## ▶️ Start Kafka Broker
-.\bin\windows\kafka-server-start.bat .\config\server.properties
+```.\bin\windows\kafka-server-start.bat .\config\server.properties```
 
 
 Kafka runs on: localhost:9092
@@ -37,16 +37,18 @@ Zookeeper runs on: localhost:2181
 ## ▶️ Run Spring Boot Application
 In VS Code terminal or command prompt:
 
-./mvnw spring-boot:run
+```./mvnw spring-boot:run```
 
 ## 📬 API Endpoint
 Method	Endpoint	Description
 POST	/api/publish	Publishes message to Kafka topic
 
 ## 📦 Sample Request (JSON)
+```
 {
   "message": "Hello from Thunder Client!"
 }
+```
 Use Thunder Client (VS Code Extension) for testing the API.
 
 ## ⚙️ Application Details
