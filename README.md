@@ -66,7 +66,8 @@ Use Thunder Client (VS Code Extension) for testing the API.
 │   │       └── consumer/       # Kafka consumer logic
 │   └── resources/
 │       ├── application.properties
-└── pom.xml```
+└── pom.xml
+```
 
 ## ✅ Example Output
 When a message is sent:
